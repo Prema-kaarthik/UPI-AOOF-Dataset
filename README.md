@@ -1,48 +1,54 @@
+# 🚀 UPI-AOOF: AI-Enhanced Stochastic Optimization Framework for UPI Systems
 
- # AOOF: Adaptive Operational Optimization Framework for UPI
+## 📌 Overview
 
-Repository for the paper **"AI-Enhanced Stochastic Optimization for Efficient UPI Banking Operations"**.
+**UPI-AOOF** is an advanced AI-driven framework designed to optimize **Unified Payments Interface (UPI)** operations using:
 
-## Structure
-See folder tree in the query.
+- 📊 Hybrid Forecasting (ARIMA + LSTM)
+- 🔧 Two-Stage Stochastic Optimization
+- 🤖 Reinforcement Learning (PPO)
+- ☁️ Cloud-based Resource Management
+
+This project aims to improve **transaction efficiency, SLA compliance, delay reduction, and operational cost optimization** in large-scale digital payment systems.
+
+---
+
+## 🧠 Key Features
+
+- ✅ Hybrid ARIMA–LSTM demand forecasting  
+- ✅ Two-stage stochastic optimization under uncertainty  
+- ✅ Reinforcement learning-based adaptive decision-making  
+- ✅ High-fidelity simulation environment for RL  
+- ✅ Real-world UPI data-driven analysis  
+- ✅ Scalable and modular architecture  
+
+---
+
+## 📁 Repository Structure
+
+```text
 UPI-AOOF/
 ├── data/
-│   ├── raw/                      # Raw NPCI UPI CSV datasets
-│   ├── processed/                # Preprocessed datasets
+│   ├── raw/                  # Raw NPCI UPI datasets
+│   ├── processed/            # Cleaned and split datasets
 │   │   ├── train_2021-2023.csv
 │   │   ├── val_2024.csv
 │   │   └── test_2025.csv
 │
 ├── notebooks/
-│   ├── 01_preprocessing.ipynb    # Data cleaning and preprocessing
-│   ├── 02_hybrid_arima_lstm.ipynb # Hybrid forecasting model
-│   └── 03_stochastic_optimization.ipynb # Optimization experiments
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_hybrid_arima_lstm.ipynb
+│   └── 03_stochastic_optimization.ipynb
 │
 ├── scripts/
-│   ├── preprocess.py             # Data preprocessing pipeline
-│   ├── hybrid_forecast.py        # ARIMA–LSTM hybrid model
-│   ├── stochastic_opt.py         # Two-stage stochastic optimization
-│   └── rl_simulation.py          # Reinforcement learning (PPO) simulation
+│   ├── preprocess.py
+│   ├── hybrid_forecast.py
+│   ├── stochastic_opt.py
+│   └── rl_simulation.py
 │
 ├── results/
-│   └── metrics_summary.txt       # Evaluation metrics and results
+│   └── metrics_summary.txt
 │
-├── README.md                     # Project documentation
-├── requirements.txt              # Dependencies
-└── LICENSE                       # (Recommended to include)
-## How to Run (Reproduce Results)
-
-```bash
-pip install -r requirements.txt
-
-# 1. Preprocess (create train/val/test splits)
-python scripts/preprocess.py
-
-# 2. Hybrid Forecasting
-python scripts/hybrid_forecast.py
-
-# 3. Stochastic Optimization
-python scripts/stochastic_opt.py
-
-# 4. RL Simulation (PPO)
-python scripts/rl_simulation.py
+├── README.md
+├── requirements.txt
+└── LICENSE
