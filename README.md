@@ -29,25 +29,12 @@ This project aims to improve **transaction efficiency, SLA compliance, delay red
 ```text
 UPI-AOOF/
 ├── data/
-│   ├── raw/                  # Raw NPCI UPI datasets
-│   ├── processed/            # Cleaned and split datasets
-│   │   ├── train_2021-2023.csv
-│   │   ├── val_2024.csv
-│   │   └── test_2025.csv
-│
-├── notebooks/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_hybrid_arima_lstm.ipynb
-│   └── 03_stochastic_optimization.ipynb
-│
+│   ├── Dataset-e-Commerce/                  # Raw NPCI UPI datasets
 ├── scripts/
 │   ├── preprocess.py
 │   ├── hybrid_forecast.py
 │   ├── stochastic_opt.py
 │   └── rl_simulation.py
-│
-├── results/
-│   └── metrics_summary.txt
 │
 ├── README.md
 ├── requirements.txt
