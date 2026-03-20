@@ -1,1 +1,15 @@
 
+pandas==2.2.*
+numpy==1.26.*
+statsmodels==0.14.*
+scikit-learn==1.5.*
+torch==2.4.*          # for LSTM
+torchvision
+torchaudio
+matplotlib
+seaborn
+scipy
+PuLP==2.8.*           # for stochastic optimization (linear programming)
+gymnasium==0.29.*     # for RL environment
+stable-baselines3==2.3.*
+tqdm
