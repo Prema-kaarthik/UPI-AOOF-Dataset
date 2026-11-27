@@ -1,5 +1,4 @@
-# 🚀AI-Enhanced Stochastic Optimization for Efficient UPI Banking Operations
-
+# 🚀An Integrated Artificial Intelligence and Blockchain Framework for Fraud Mitigation, Dynamic Pricing and Payment Security: An Empirical Study of UPI-Enabled E-Commerce in India
 ## 📌 Overview
 
 **UPI-AOOF** is an advanced AI-driven framework designed to optimize **Unified Payments Interface (UPI)** operations using:
